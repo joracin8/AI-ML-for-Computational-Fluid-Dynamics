@@ -85,7 +85,7 @@ The neural network learns the temperature field across the spatio-temporal domai
 
 ## Results
 
-After training, the predicted solution from the PINN model is compared with the **analytical solution** of the heat equation.
+After training, the predicted solution from the PINN model is compared with the **analytical solution** of the heat equation at different time steps.
 
 The visualization shows:
 
@@ -96,14 +96,6 @@ The visualization shows:
 This comparison verifies that the neural network correctly learns the underlying physics.
 
 ---
-
-## Repository Structure
-
-
-
-
-
-
 
 
 <img width="691" height="547" alt="image" src="https://github.com/user-attachments/assets/c393af23-58f8-4ff8-a63e-94ba6d687f27" />
