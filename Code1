@@ -1,0 +1,24 @@
+import pandas as pd
+import numpy as np
+
+# Load your CCM+ CSV
+df = pd.read_csv("your_ccm_output.csv")
+
+# Your PINN normalization parameters
+center = (0.01151354, 0.03322, 0.0)
+scale = 12.753
+
+# Apply same transformation as PINN code
+df['x'] = (df['x'] - center[0]) * scale
+df['y'] = (df['y'] - center[1]) * scale
+df['z'] = (df['z'] - center[2]) * scale
+
+# If area columns exist
+if 'area' in df.columns:
+    df['area'] = df['area'] * (scale**2)
+
+# Save transformed CSV
+df.to_csv("ccm_normalized.csv", index=False)
+
+print("Done! Check first few rows:")
+print(df.head())
