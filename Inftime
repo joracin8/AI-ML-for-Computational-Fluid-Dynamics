@@ -1,0 +1,8 @@
+import time
+
+start = time.perf_counter()
+results = run_inference(flow_net, invar)
+end = time.perf_counter()
+
+print(f"  Inference time   : {end - start:.4f} seconds")
+print(f"  Points/second    : {len(invar['x']) / (end - start):.0f}")
