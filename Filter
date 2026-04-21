@@ -1,0 +1,9 @@
+# Filter out points outside expected bounding box
+x, y, z = invar["x"].squeeze(), invar["y"].squeeze(), invar["z"].squeeze()
+mask = (
+    (x >= x.min()) & (x <= x.max()) &
+    (y >= y.min()) & (y <= y.max()) &
+    (z >= z.min()) & (z <= z.max())
+)
+invar = {k: v[mask].reshape(-1, 1) for k, v in invar.items()}
+print(f"[inference] Points after filtering: {mask.sum()} / {len(mask)}")
