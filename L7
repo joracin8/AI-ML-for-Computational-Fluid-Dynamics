@@ -1,0 +1,15 @@
+import torch
+sd = torch.load(r"outputs\aneurysm\flow_network.0.pth", map_location="cpu")
+
+# Test: compute effective weight and check if it matches weight_g magnitude
+w = sd["_impl.layers.0.linear.weight"]
+wg = sd["_impl.layers.0.linear.weight_g"]
+
+# Our formula
+norm = w.norm(dim=1, keepdim=True)
+w_eff = wg * w / norm
+
+# Check: effective weight row norms should equal weight_g
+print("weight_g[0:5]:", wg[:5].squeeze())
+print("w_eff row norms[0:5]:", w_eff.norm(dim=1)[:5])
+# These two should match if formula
