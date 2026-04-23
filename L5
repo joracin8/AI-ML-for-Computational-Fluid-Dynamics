@@ -1,0 +1,10 @@
+import torch
+sd = torch.load(r"outputs\aneurysm\flow_network.0.pth", map_location="cpu")
+
+# Check what the weight_g shape tells us
+w = sd["_impl.layers.0.linear.weight"]
+wg = sd["_impl.layers.0.linear.weight_g"]
+print("weight shape:", w.shape)
+print("weight_g shape:", wg.shape)
+print("weight norm dim0:", w.norm(dim=0).shape)
+print("weight norm dim1:", w.norm(dim=1).shape)
