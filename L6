@@ -1,0 +1,6 @@
+x_raw = df["X (m)"].values
+y_raw = df["Y (m)"].values  
+z_raw = df["Z (m)"].values
+print("Raw X range:", x_raw.min(), x_raw.max())
+print("Normalized X range:", ((x_raw - 0.01151354)*12.753).min(), 
+      ((x_raw - 0.01151354)*12.753).max())
