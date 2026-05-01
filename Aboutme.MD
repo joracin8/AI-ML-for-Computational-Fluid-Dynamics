@@ -27,7 +27,7 @@ I build surrogate models that significantly reduce computational cost while main
 
 ## 🧭 Current Focus
 
-Operator learning (FNO on OpenFOAM LES) · PINNs for Navier–Stokes (basic BCs) · Surrogate studies for heat exchangers (CHT)
+Operator learning on  · 'Digital twins and PINNs for ehxaust pipe flow'  ·  'Mesh Graph Net for solving flow filed unstructuresd mesh   '
 
 ---
 
