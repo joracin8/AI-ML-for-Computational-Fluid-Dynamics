@@ -65,7 +65,7 @@ Classical CFD Validation
 
 ## 📫 Connect
 
-- 💼 [LinkedIn](https://linkedin.com/in/yourhandle) ← *update this*
+- 💼 [LinkedIn](https://www.linkedin.com/in/joracin-geraldini-64622b154/?skipRedirect=true) ← 
 - 📧 Reach me via GitHub Issues on any repo for collaboration or questions
 
 ---
