@@ -1,7 +1,6 @@
 # Hi, I'm Joracin 👋
 
 > **Computational Fluid Dynamics Engineer | AI/ML for Physical Simulation | Multiphase & Heat Transfer Flows**
-
 I design and develop advanced simulation frameworks and neural network models for fluid dynamics and data-driven computing, specializing in Physics-Informed Neural Networks and surrogate modeling to enable efficient, scalable alternatives to computationally intensive CFD simulations
 ---
 
