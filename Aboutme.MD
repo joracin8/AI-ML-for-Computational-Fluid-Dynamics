@@ -2,7 +2,7 @@
 
 > **Computational Fluid Dynamics Engineer | AI/ML for Physical Simulation | Multiphase & Heat Transfer Flows**
 
-I build simulations and machine learning models at the intersection of fluid mechanics and data-driven computing — from RANS solvers and VOF multiphase models to Physics-Informed Neural Networks and surrogate models that replace expensive CFD runs.
+I develop simulation frameworks and neural network models at the intersection of fluid dynamics and data-driven computing, specializing in Physics-Informed Neural Networks and surrogate models for accelerating computationally expensive CFD simulations.
 
 ---
 
@@ -10,28 +10,28 @@ I build simulations and machine learning models at the intersection of fluid mec
 
 | Domain | Methods & Tools |
 |---|---|
-| **AI/ML in CFD** | PINNs, DeepONet, FNO, surrogate models, neural ODEs |
-| **Multiphase Simulation** | VOF, Level Set, Euler-Lagrange, droplet/bubble dynamics |
-| **Heat Transfer** | Conjugate CHT, natural/forced convection, phase-change |
-| **Turbulence Modeling** | k-ε, k-ω SST, LES post-processing, DNS data analysis |
-| **Solvers & Frameworks** | OpenFOAM, Python, PyTorch, JAX, numpy, matplotlib |
+| **AI/ML in CFD** | PINNs, DeepONet, FNO, surrogate models, Mesh grah net|
+| **Multiphase Simulation** | VOF, fluid film , Euler-Lagrange, hybrid multiphase |
+| **Heat Transfer** | Conjugate CHT, natural/forced convection, underhood thermla management |
+| **Turbulence Modeling** | k-ε, k-ω SST, LES|
+| **Solvers & Frameworks** | Straccm+ ,Python, PyTorch, PreonLab |
 
 ---
 
 ## 📌 Featured Projects
 
 ### 🧠 [`AI-ML-for-Computational-Fluid-Dynamics`](https://github.com/joracin8/AI-ML-for-Computational-Fluid-Dynamics)
-A curated collection of AI/ML methods applied to fluid mechanics problems.  
-Covers Physics-Informed Neural Networks (PINNs) for governing equation solving, surrogate modeling to accelerate RANS predictions, and operator learning frameworks (DeepONet, FNO) for PDE generalization.  
-**Stack:** Python · PyTorch · JAX · OpenFOAM (data generation)
+I develop data-driven CFD solutions using NVIDIA PhysicsNeMo, focusing on Physics-Informed Neural Networks for solving governing fluid flow equations.
+My work integrates deep learning with numerical simulation to model complex fluid dynamics efficiently.
+I build surrogate models that significantly reduce computational cost while maintaining accuracy compared to traditional CFD solvers
 
 ---
 
 ## 🧭 Current Focus
 
-- **Operator learning** for turbulent flow fields — training FNO models on OpenFOAM LES data
-- **PINN extensions** to Navier-Stokes with inlet/outlet BCs and pressure-velocity coupling
-- **Surrogate-assisted optimization** for heat exchanger geometry under conjugate CHT constraints
+-Operator learning (introductory) for turbulent flow fields — experimenting with FNO models on OpenFOAM LES datasets
+-PINN implementations for Navier–Stokes equations with basic inlet/outlet boundary conditions
+-Surrogate-based studies for heat exchanger geometry — exploring trends under conjugate heat transfer (CHT) conditions
 
 ---
 
