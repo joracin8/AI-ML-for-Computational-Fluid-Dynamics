@@ -38,13 +38,13 @@ Covers Physics-Informed Neural Networks (PINNs) for governing equation solving, 
 ## 🛠️ Skills Matrix
 
 ```
-Classical CFD         ████████████████████  Expert
-Multiphase Simulation ██████████████████░░░░Advanced
-Heat Transfer CFD     ███████████████░░░░░  Advanced
-PINNs / Neural PDEs   █████████████░░░░░░░  Advanced
-Surrogate Modeling    ████████████░░░░░░░░  Intermediate–Advanced
-Operator Learning     █████████░░░░░░░░░░░  Intermediate
-PyTorch               █████████████░░░░░░░  Advanced
+CFD in Straccm+              ████████████████████  Expert
+Multiphase Simulation        ██████████████████    Advanced
+Heat Transfer (CFD)          ███████████████       Advanced
+PINNs / Neural PDEs          ████████████████      Advanced
+Surrogate Modeling           ████████████          Intermediate–Advanced
+Operator Learning            █████████             Intermediate
+PyTorch                      █████████████         Advanced
 ```
 
 ---
