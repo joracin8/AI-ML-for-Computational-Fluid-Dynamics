@@ -2,8 +2,7 @@
 
 > **Computational Fluid Dynamics Engineer | AI/ML for Physical Simulation | Multiphase & Heat Transfer Flows**
 
-I develop simulation frameworks and neural network models at the intersection of fluid dynamics and data-driven computing, specializing in Physics-Informed Neural Networks and surrogate models for accelerating computationally expensive CFD simulations.
-
+I design and develop advanced simulation frameworks and neural network models for fluid dynamics and data-driven computing, specializing in Physics-Informed Neural Networks and surrogate modeling to enable efficient, scalable alternatives to computationally intensive CFD simulations
 ---
 
 ## 🔬 What I Work On
@@ -29,9 +28,9 @@ I build surrogate models that significantly reduce computational cost while main
 
 ## 🧭 Current Focus
 
--Operator learning (introductory) for turbulent flow fields — experimenting with FNO models on OpenFOAM LES datasets
--PINN implementations for Navier–Stokes equations with basic inlet/outlet boundary conditions
--Surrogate-based studies for heat exchanger geometry — exploring trends under conjugate heat transfer (CHT) conditions
+Operator learning (introductory) for turbulent flow fields — experimenting with FNO models on OpenFOAM LES datasets
+PINN implementations for Navier–Stokes equations with basic inlet/outlet boundary conditions
+Surrogate-based studies for heat exchanger geometry — exploring trends under conjugate heat transfer (CHT) conditions
 
 ---
 
