@@ -23,7 +23,7 @@ I design and develop advanced simulation frameworks and neural network models fo
 
 ## 🧭 Current Focus
 
-'Operator learning on' · 'Digital twins and PINNs for ehxaust pipe flow'·'Mesh Graph Net for solving flow filed unstructuresd mesh'
+'Operator learning ' ·  'Digital twins and PINNs for ehxaust pipe flow'·  'Mesh Graph Net for solving flow filed unstructuresd mesh'
 
 ---
 
