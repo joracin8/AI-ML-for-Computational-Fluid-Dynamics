@@ -56,14 +56,14 @@ Classical CFD Validation
             └── AI/ML Acceleration & Surrogate Modeling   ← primary focus
 ```
 
-Each project includes: governing equations, dimensionless analysis, implementation, validation against classical solutions or reference data, and a "what this demonstrates" section.
+
 
 ---
 
 ## 📊 Repo Topics
 
-`cfd` · `openfoam` · `multiphase-flow` · `heat-transfer` · `pinn` 
-`physics-informed-neural-networks` · `surrogate-modeling` · `deeponet`
+`cfd` · `openfoam` · `multiphase-flow` · `heat-transfer` · 
+`physics-informed-neural-networks` · `surrogate-modeling` · 
 `fourier-neural-operator` · `turbulence-modeling` · `vof` · `pytorch` 
 
 ---
