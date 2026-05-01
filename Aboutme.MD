@@ -15,13 +15,9 @@ I design and develop advanced simulation frameworks and neural network models fo
 | **Solvers & Frameworks** | Straccm+ ,Python, PyTorch, PreonLab |
 
 ---
-
 ## 📌 Featured Projects
 
 ### 🧠 [`AI-ML-for-Computational-Fluid-Dynamics`](https://github.com/joracin8/AI-ML-for-Computational-Fluid-Dynamics)
-I develop data-driven CFD solutions using NVIDIA PhysicsNeMo, focusing on Physics-Informed Neural Networks for solving governing fluid flow equations.
-My work integrates deep learning with numerical simulation to model complex fluid dynamics efficiently.
-I build surrogate models that significantly reduce computational cost while maintaining accuracy compared to traditional CFD solvers
 
 ---
 
