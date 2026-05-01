@@ -1,4 +1,4 @@
-# Hi, I'm Jorge 👋
+# Hi, I'm Joracin 👋
 
 > **Computational Fluid Dynamics Engineer | AI/ML for Physical Simulation | Multiphase & Heat Transfer Flows**
 
@@ -39,13 +39,12 @@ Covers Physics-Informed Neural Networks (PINNs) for governing equation solving, 
 
 ```
 Classical CFD         ████████████████████  Expert
-Multiphase Simulation ███████████████░░░░░  Advanced
+Multiphase Simulation ██████████████████░░░░Advanced
 Heat Transfer CFD     ███████████████░░░░░  Advanced
 PINNs / Neural PDEs   █████████████░░░░░░░  Advanced
 Surrogate Modeling    ████████████░░░░░░░░  Intermediate–Advanced
 Operator Learning     █████████░░░░░░░░░░░  Intermediate
-OpenFOAM              ████████████████░░░░  Advanced
-PyTorch / JAX         █████████████░░░░░░░  Advanced
+PyTorch               █████████████░░░░░░░  Advanced
 ```
 
 ---
@@ -66,9 +65,9 @@ Each project includes: governing equations, dimensionless analysis, implementati
 
 ## 📊 Repo Topics
 
-`cfd` · `openfoam` · `multiphase-flow` · `heat-transfer` · `pinn` ·  
-`physics-informed-neural-networks` · `surrogate-modeling` · `deeponet` ·  
-`fourier-neural-operator` · `turbulence-modeling` · `vof` · `pytorch` · `jax`
+`cfd` · `openfoam` · `multiphase-flow` · `heat-transfer` · `pinn` 
+`physics-informed-neural-networks` · `surrogate-modeling` · `deeponet`
+`fourier-neural-operator` · `turbulence-modeling` · `vof` · `pytorch` 
 
 ---
 
