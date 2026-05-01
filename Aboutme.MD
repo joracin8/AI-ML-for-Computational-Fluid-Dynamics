@@ -28,9 +28,7 @@ I build surrogate models that significantly reduce computational cost while main
 
 ## 🧭 Current Focus
 
-Operator learning (introductory) for turbulent flow fields — experimenting with FNO models on OpenFOAM LES datasets
-PINN implementations for Navier–Stokes equations with basic inlet/outlet boundary conditions
-Surrogate-based studies for heat exchanger geometry — exploring trends under conjugate heat transfer (CHT) conditions
+Operator learning (FNO on OpenFOAM LES) · PINNs for Navier–Stokes (basic BCs) · Surrogate studies for heat exchangers (CHT)
 
 ---
 
