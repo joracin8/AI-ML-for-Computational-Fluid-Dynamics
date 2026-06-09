@@ -1,0 +1,23 @@
+try:
+    import pynvml
+    pynvml.nvmlInit()
+    _nvml_handle = pynvml.nvmlDeviceGetHandleByIndex(0)
+    _nvml_ok = True
+except Exception:
+    _nvml_ok = False
+
+def _monitor():
+    while _mon_active:
+        try:
+            if _nvml_ok:
+                util  = pynvml.nvmlDeviceGetUtilizationRates(_nvml_handle)
+                temp  = pynvml.nvmlDeviceGetTemperature(
+                            _nvml_handle,
+                            pynvml.NVML_TEMPERATURE_GPU)
+                power = pynvml.nvmlDeviceGetPowerUsage(_nvml_handle) / 1000.0
+                gpu_log["cur_util"]  = float(util.gpu)
+                gpu_log["cur_temp"]  = float(temp)
+                gpu_log["cur_power"] = float(power)
+        except Exception:
+            pass
+        time.sleep(1)
