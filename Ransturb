@@ -1,0 +1,47 @@
+class RANSMomentum(PDE):
+    name = "RANSMomentum"
+
+    def __init__(self, nu, rho=1.0):
+        self.equations = {}
+        self.primitives = {}
+
+        x, y, z = Symbol("x"), Symbol("y"), Symbol("z")
+        u = Function("u")(x, y, z)
+        v = Function("v")(x, y, z)
+        w = Function("w")(x, y, z)
+        p = Function("p")(x, y, z)
+        k = Function("k")(x, y, z)
+        ep = Function("ep")(x, y, z)
+
+        # nu_t as pure algebra — no Max/Min (avoids CUDA JIT crash)
+        nu_t = 0.09 * k**2 / ep
+        nu_eff = nu + nu_t
+
+        # Continuity
+        continuity = u.diff(x) + v.diff(y) + w.diff(z)
+
+        # Momentum with nu_eff instead of constant nu
+        momentum_x = (rho*(u*u.diff(x) + v*u.diff(y) + w*u.diff(z))
+                      + p.diff(x)
+                      - (nu_eff*u.diff(x)).diff(x)
+                      - (nu_eff*u.diff(y)).diff(y)
+                      - (nu_eff*u.diff(z)).diff(z))
+
+        momentum_y = (rho*(u*v.diff(x) + v*v.diff(y) + w*v.diff(z))
+                      + p.diff(y)
+                      - (nu_eff*v.diff(x)).diff(x)
+                      - (nu_eff*v.diff(y)).diff(y)
+                      - (nu_eff*v.diff(z)).diff(z))
+
+        momentum_z = (rho*(u*w.diff(x) + v*w.diff(y) + w*w.diff(z))
+                      + p.diff(z)
+                      - (nu_eff*w.diff(x)).diff(x)
+                      - (nu_eff*w.diff(y)).diff(y)
+                      - (nu_eff*w.diff(z)).diff(z))
+
+        self.equations = {
+            "continuity":  continuity,
+            "momentum_x":  momentum_x,
+            "momentum_y":  momentum_y,
+            "momentum_z":  momentum_z,
+        }
